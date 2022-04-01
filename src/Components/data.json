@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "historia": "En una cabaña del bosque vivía un leñador con sus dos hijos, que se llamaban Hansel y Gretel. El hombre se había casado con una mujer que no quería a los niños, pues por su culpa, el dinero no les alcanzaba. - Mañana iremos al bosque y les abandonaremos allí. - Dijo la malvada...",
+    "opciones": {
+      "a": "Mujer: “Tus hijos son lo bastante grandes para vivir solos”.",
+      "b": "Hombre: “¿Cómo voy a abandonar a mis hijos a su suerte?”"
+    }
+  },
+  {
+    "id": "2a",
+    "historia": "¡No hay más que hablar! – siguió gritando –. Nosotros viviremos más desahogados y ellos, que son jóvenes, encontrarán la manera de salir adelante por sí mismos. Mientras el matrimonio hablaba sobre este tema, Hansel estaba en la habitación contigua escuchando todo. Horrorizado, se lo contó al oído a su hermana Gretel. La pobre niña comenzó a llorar amargamente.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "2b",
+    "historia": "El buen hombre, a pesar de la angustia que sentía en el pecho, aceptó pensando que quizá su mujer tuviera razón y que dejarles libres sería lo mejor. Mientras el matrimonio hablaba sobre este tema, Hansel estaba en la habitación contigua escuchando todo. Horrorizado, se lo contó al oído a su hermana Gretel. La pobre niña comenzó a llorar amargamente.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "3a",
+    "historia": "¿Qué haremos, hermano, tú y yo solitos en el bosque? Moriremos de hambre y frío. Al día siguiente, antes del amanecer, la madrastra los despertó gritando. – ¡Levántense! ¡Es hora de ir a trabajar, holgazanes! –  Asustados y sin decir nada, los niños se vistieron y se dispusieron a acompañar a sus padres al bosque para recoger leña. La madrastra les esperaba en la puerta con un panecillo para cada uno.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "3b",
+    "historia": "No te preocupes, Gretel, confía en mí. ¡Ya se me ocurrirá algo! – dijo Hansel con ternura, dándole un beso en la mejilla. Al día siguiente, antes del amanecer, la madrastra los despertó gritando. – ¡Levántense! ¡Es hora de ir a trabajar, holgazanes! –  Asustados y sin decir nada, los niños se vistieron y se dispusieron a acompañar a sus padres al bosque para recoger leña. La madrastra les esperaba en la puerta con un panecillo para cada uno.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "4a",
+    "historia": "Gretel atemorizada de que su madrastra cumpliera sus amenazas, le pidió a Hansel señalar el camino de vuelta a casa. Los cuatro iniciaron un largo recorrido por el bosque. Era un día de otoño húmedo y frío. Al llegar a su destino, ayudaron en la tarea de recoger troncos y ramas. Tanto trabajaron que el sueño les ganó y se quedaron dormidos al calor de una fogata. Cuando se despertaron, sus padres ya no estaban.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "4b",
+    "historia": "A Hansel le atemorizaba que su madrastra cumpliera sus amenazas. Por si eso sucedía, fue dejando miguitas de pan a su paso para señalar el camino de vuelta a casa. Los cuatro iniciaron un largo recorrido por el bosque. Era un día de otoño húmedo y frío. Al llegar a su destino, ayudaron en la tarea de recoger troncos y ramas. Tanto trabajaron que el sueño les ganó y se quedaron dormidos al calor de una fogata. Cuando se despertaron, sus padres ya no estaban.",
+    "opciones": {
+      "a": "Ser Gretel",
+      "b": "Ser Hansel"
+    }
+  },
+  {
+    "id": "5a",
+    "historia": "¡Hansel, Hansel! ¡Se han ido y nos han dejado solos! ¿Cómo vamos a salir de aquí? El bosque está oscuro y es muy peligroso. Por más que buscó las miguitas de pan, no encontró ni una. ¡Los pájaros se las habían comido! Vagaron en el bosque durante horas. Cuando ya lo daban todo por perdido, vieron una hermosa casita de chocolate. Tenía un jardín cubierto de flores de azúcar y de la fuente brotaba leche chocolatada. Maravillados, los niños se acercaron y comenzaron a comer todo lo que se les puso por delante. Al rato, salió de la casa una mujer vieja y arrugada, con una verruga en la nariz, que los recibió con amabilidad.",
+    "opciones": {
+      "a": "Tenemos hambre y frio, entremos a esta casa nada sospechosa.",
+      "b": "Es una casa de chocolate, ¿Qué podría salir mal? Entremos sin sospechar nada… "
+    }
+  },
+  {
+    "id": "5b",
+    "historia": "Tranquila hermanita, he dejado un rastro de migas de pan para poder regresar – dijo confiado. Por más que buscó las miguitas de pan, no encontró ni una. ¡Los pájaros se las habían comido! Vagaron en el bosque durante horas. Cuando ya lo daban todo por perdido, vieron una hermosa casita de chocolate. Tenía un jardín cubierto de flores de azúcar y de la fuente brotaba leche chocolatada. Maravillados, los niños se acercaron y comenzaron a comer todo lo que se les puso por delante. Al rato, salió de la casa una mujer vieja y arrugada, con una verruga en la nariz, que los recibió con amabilidad.",
+    "opciones": {
+      "a": "Tenemos hambre y frio, entremos a esta casa nada sospechosa.",
+      "b": "Es una casa de chocolate, ¿Qué podría salir mal? Entremos sin sospechar nada… "
+    }
+  }
+]
