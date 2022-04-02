@@ -41,8 +41,11 @@ export default class Historiador extends Component {
 
                     case "reiniciar":
                         swal("Vuelves a comenzar la historia.");
-                        this.setState({ idx: 0 });
-                        this.setState({ historialElecciones: [] })
+                        this.setState({
+                            idx: 0,
+                            historialElecciones: [],
+                            ultimaOpcion: "",
+                        });
                         break;
 
                     default:
