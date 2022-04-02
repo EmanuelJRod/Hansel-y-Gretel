@@ -14,6 +14,46 @@ export default class Historiador extends Component {
             historialElecciones: [],
         }
     };
+    sweetAlertConfig() {
+        swal({
+            title: "Entraste a la casa de la bruja.",
+            text: "Decidí que vas a hacer: ",
+            icon: "warning",
+            buttons: {
+                escape: "Escapar",
+                reinicio: {
+                    text: "Volver a empezar",
+                    value: "reiniciar",
+                },
+                "¡Pelear!": true,
+            },
+        })
+            .then((value) => {
+                switch (value) {
+
+                    case "¡Pelear!":
+                        swal({
+                            title: "Derrotaste a la bruja",
+                            text: "Luego de engordar a Hansel, la bruja le pide a Gretel preparar el horno. Gretel arpovecha un descuido de la bruja y la encierra, libera a su hermano y juntos escapan de la casita de chocolates. (Lograste el final alternativo)",
+                            icon: "info",
+                        });
+                        break;
+
+                    case "reiniciar":
+                        swal("Vuelves a comenzar la historia.");
+                        this.setState({ idx: 0 });
+                        this.setState({ historialElecciones: [] })
+                        break;
+
+                    default:
+                        swal({
+                            title: "Hansel y Gretel escaparon.",
+                            text: "Hansel y gretel se reencuentran con su padre. (Lograste el final feliz)",
+                            icon: "info"
+                        });
+                }
+            });
+    }
     componentDidUpdate(prevProps, prevState) {
         if (prevState.idx !== this.state.idx) {
             this.state.historialElecciones.push(this.state.ultimaOpcion);
@@ -24,7 +64,7 @@ export default class Historiador extends Component {
         console.log(this.state.idx);
         if (this.state.idx === 7 || this.state.idx === 8) {
             console.log(this.state.historialElecciones);
-            swal("Entraste a la casa de la bruja", "No te preocupes, Hansel y Gretel sobreviven.", "warning")
+            this.sweetAlertConfig();
         } else {
 
             if (this.state.idx % 2 === 0) {

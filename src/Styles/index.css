@@ -65,16 +65,23 @@ button{
 .swal-overlay {
   background-color: rgba(172, 109, 84, 0.5);
 }
-
 .swal-modal {
   background-color: rgb(210, 232, 173);
   border: 3px solid rgb(134, 92, 44);
 }
-
-.swal-title{
+.swal-title {
   font-size: 30px;
   color: black;
 }
-.swal-text{
+.swal-text {
   font-size: 20px;
+  text-align: justify;
+}
+.swal-footer {
+  background-color: rgb(193, 212, 159);
+}
+.swal-button {
+  background-color: rgba(83, 113, 35, 0.5);
+  color: black;
+  border: 2px solid rgb(134, 92, 44);
 }
